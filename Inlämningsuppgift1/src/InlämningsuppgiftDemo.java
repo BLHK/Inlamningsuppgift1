@@ -1,10 +1,13 @@
 
 public class InlämningsuppgiftDemo {
+	/*
+	InlämningsuppgiftDemo(){
+		JOptionPane.showMessageDialog(null, "Enter name of animal");
+		
+	}
+	*/
 	public static void Main(String[] args) {
-		
-		System.out.println("hej");
-		System.out.println("hej");
-		System.out.println("hej");
-		
+		//InlämningsuppgiftDemo inl = new InlämningsuppgiftDemo();
+		System.out.println("Enter name of animal");
 	}
 }
