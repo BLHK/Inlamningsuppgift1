@@ -8,4 +8,6 @@ public class Hund extends Djur {
 	public double fåMat() {				//Polymorf
 		return super.getVikt()/100;
 	}
+	
+	//Kallar aldrig på mat, finns redan i superklassen för denna klassen. (Dynamisk bindning)
 }

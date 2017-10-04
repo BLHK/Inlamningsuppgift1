@@ -8,4 +8,8 @@ public class Orm extends Djur{
 	public double fåMat() {		//Polymorf
 		return 20;
 	}
+	
+	public String mat() {
+		return "ormmat";
+	}
 }

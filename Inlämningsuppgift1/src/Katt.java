@@ -8,4 +8,8 @@ public class Katt extends Djur {
 	public double fåMat() {			//Polymorf
 		return super.getVikt()/150;
 	}
+	
+	public String mat() { 
+		return "kattmat";
+	}
 }

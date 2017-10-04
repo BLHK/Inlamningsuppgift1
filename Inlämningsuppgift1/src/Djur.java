@@ -21,5 +21,7 @@ public abstract class Djur implements IDjur{
 	public double fåMat() {
 		return vikt/10;
 	}
-
+	public String mat() {
+		return "hundmat";
+	}
 }
