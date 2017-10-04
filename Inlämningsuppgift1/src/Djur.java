@@ -22,18 +22,4 @@ public abstract class Djur implements IDjur{
 		return vikt/10;
 	}
 
-	
-	/*public int hundMat(int vikt, int mat) {
-		return vikt / mat;
-	}
-	
-	public int kattMat(int vikt, int mat) {
-		return vikt / mat;
-	}
-	
-	public int ormMat() {
-		return 20;
-	}*/
-	
-	
 }
