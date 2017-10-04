@@ -16,21 +16,19 @@ public class InlämmningsuppgiftDemo{
 		String s = JOptionPane.showInputDialog("Ange namn på ditt djur");
 		
 		if(s.equals(sixten.getNamn()))
-			System.out.println(sixten.getNamn() + " ska få " + sixten.hundMat(sixten.getVikt(), 100) + " gram hundfoder");
+			JOptionPane.showMessageDialog(null, sixten.getNamn() + " ska få " + sixten.fåMat() + " gram hundfoder");
 		if(s.equals(dogge.getNamn()))
-			System.out.println(dogge.getNamn() + " ska få " + dogge.hundMat(dogge.getVikt(), 100) + " gram hundfoder");
+			JOptionPane.showMessageDialog(null, dogge.getNamn() + " ska få " + dogge.fåMat() + " gram hundfoder");
 		
 		if(s.equals(hypno.getNamn()))
-			System.out.println(hypno.getNamn() + " ska få " + hypno.ormMat() + " gram orm mat");
+			JOptionPane.showMessageDialog(null, hypno.getNamn() + " ska få " + hypno.fåMat() + " gram orm mat");
 		
 		if(s.equals(venus.getNamn()))
-			System.out.println(venus.getNamn() + " ska få " + venus.kattMat(venus.getVikt(), 100) + " gram kattmat");
+			JOptionPane.showMessageDialog(null, venus.getNamn() + " ska få " + venus.fåMat() + " gram kattmat");
 		if(s.equals(ove.getNamn()))
-			System.out.println(ove.getNamn() + " ska få " + ove.kattMat(ove.getVikt(), 100) + " gram kattmat");
+			JOptionPane.showMessageDialog(null, ove.getNamn() + " ska få " + ove.fåMat() + " gram kattmat");
 		
 		
-		//System.out.println(sixten.getNamn());
-		//System.out.println(sixten.getVikt());
 	}
 	
 	public static void main(String[] args) {
